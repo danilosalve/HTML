@@ -1,0 +1,4 @@
+Fundo da pagina: background-color: #FAFAFA;
+Fundo do titulo: background-color: #dcd0c0;
+Cor sub-titulo (Quando utilizado no corpo): color: #c0b283;
+Cor texto e titulo principal: color: #373737;

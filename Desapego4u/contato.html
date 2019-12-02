@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo&display=swap">
+        <link rel="shortcut icon" href="img/favicon.png">
+        <title>Contato - Desapego 4U</title>
+    </head>
+    <body>
+        <header class="titulo-principal">
+            <img src="img/logo.png" alt="Desapego 4 U" >
+        </header>
+        <nav class="navegacao-site">
+            <ul>
+                <li><a href="index.html">Home</li>
+                <li><a href="feminino.html">Feminino</li>
+                <li><a href="masculino.html">Masculino</a></li>
+                <li><a href="infantil.html">Infantil</a></li>
+                <li><a href="calcados.html">Calçados</a></li>
+                <li><a href="acessorios.html">Acessórios</a></li>
+                <li><a href="casa.html">Casa</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="bio.html">Sobre</a></li>
+            </ul>
+        </nav>
+        <main>
+        <div class="container">
+                <form>
+                    <fieldset>
+                        <legend>Preencha os dados abaixo</legend>
+                        <label class="com-icone" for="nome">Nome completo</label>
+                        <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" 
+                            title="O nome precisa ter pelo menos 4 caracteres" placeholder="Nome e Sobrenome">
+                        <label class="com-icone" for="email">E-mail</label>
+                        <input id="email" type="email" name="email" required placeholder="seu@email.com">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Assunto</legend>
+                        <label>
+                            <input type="radio" name="assunto" value="Duvida">
+                            Duvida
+                        </label>
+                        <label>
+                            <input type="radio" name="assunto" value="Reclamacao">
+                            Reclamação
+                        </label>
+                        <label>
+                            <input type="radio" name="assunto" value="Outro">
+                            Outro
+                            <input type="text" name="outro-assunto">
+                        </label>
+                    </fieldset>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" cols="60" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <section class="secao-inicio contato">
+                    <h2 class="subtitulo-texto">Mídia Social</h2>
+                    <ul class="icones-redes-sociais">
+                        <li>
+                            <a href="https://www.instagram.com/4udesapego" class="instagram" title="Siga-nos no Instagram">
+                                Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://fb.me/desapego4u" class="facebook" title="Curta nossa pagina no facebook">
+                                Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://m.me/desapego4u" class="messenger" title="Entre em contato conosco">
+                                Messenger
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+        </main>
+        <footer class="rodape-pagina">           
+            <p>Desapego 4u Copyright &copy; 2019 - 2019 - Todos direitos reservados</p>
+        </footer>
+    </body>
+</html>

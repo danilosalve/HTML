@@ -1,0 +1,104 @@
+body {
+    display: block;
+    -webkit-perspective: 6px;
+            perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+            perspective-origin: 50% 160px;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+html,body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.banner-instagram {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 1;
+    transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+    transform-origin: 0 0;
+    padding: 1em 3em;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color:white;
+    color: black;
+    font-size: 1.2em;
+    font-family: "Exo", sans-serif;    
+    animation: aparece .5s;    
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+.banner-instagram:hover,
+.banner-instagram:focus {
+    background-color: #fea680;
+}
+
+.secao-inicio {
+    padding: 2em;
+}
+.secao-inicio h2 {
+    margin-bottom: .5em;
+}
+
+.categorias {
+    background-color: #FAFAFA; 
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+}
+.categorias li {
+    background-color: #FAFAFA;
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    padding: 0.2em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.categorias li:first-child {
+    flex-basis: 100%;
+}
+
+.categorias img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 0 0 4px #000;
+}
+
+.pagamento li,
+.entrega li {
+    list-style: disc;
+    text-indent: 1em;
+}
+
+.pagamento ol li,
+.entrega ol li {
+    list-style: circle;
+    text-indent: 2.5em;
+}
+
+.pagamento, .entrega {
+    padding-top: 1em;
+    margin-top: 1.5em;
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0), rgba(200, 200, 200, 1), rgba(200, 200, 200, 0));
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}

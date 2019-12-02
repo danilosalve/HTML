@@ -1,0 +1,125 @@
+body {
+    font-family: "Exo", "Arial", sans-serif;
+    background-color: #FAFAFA;
+    font-size: 120%;
+    line-height: 1.5;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.titulo-principal {
+    text-align: center;
+    background-color: #0f1626;
+    color: #FAFAFA;
+    padding: 2rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 3px 3px #000;
+}
+
+h1,
+h2,
+.subtitulo-principal {
+    font-family: "Exo", "Arial", sans-serif;
+}
+
+.subtitulo-texto {
+    font-size: 1.5em;
+    clear: both;
+}
+
+.navegacao-site {
+    background-color: #0f1626;
+    color: #FAFAFA;
+}
+
+.navegacao-site a {
+    color: #FAFAFA;
+    text-decoration:none;
+}
+
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    color: #fea680;
+}
+
+.navegacao-site ul{
+    display: inline-block;
+}
+
+.navegacao-site li{
+    display: inline-block;
+    padding-left: 1rem;
+    padding-right: 3rem;
+}
+
+.container {
+    width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
+}
+
+.rodape-pagina {
+    background-color: #0f1626;
+    color: #FAFAFA;
+    padding: 10px;
+    font-size: 14px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+.icones-redes-sociais a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.icones-redes-sociais a {
+    position: relative;
+}
+
+.instagram {
+    background-image: url(../img/icones/instagram.png);
+}
+
+.facebook {
+    background-image: url(../img/icones/facebook.png);
+}
+
+.messenger {
+    background-image: url(../img/icones/messenger.png);
+}
+
+.email {
+    background-image: url(../img/icones/email.png);
+}
+
+.botao {
+    background-color: #76323f;
+    color: #FAFAFA;
+}
+
+.contato {
+    background-color: #0f1626;
+    color: #FAFAFA;
+}
+
+.contato h3 {
+    padding-bottom: 1em;
+    font-weight: bold;
+}
