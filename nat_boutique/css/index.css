@@ -1,0 +1,129 @@
+.foto-home {
+    height: 200px;
+}
+
+.saudacao p {
+    font-size: 1.5em;
+    color: #99A;
+    line-height: 1;
+    padding: 2em;
+}
+
+.saudacao-inicio {
+    font-size: 2em;
+    color: #889;
+}
+
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+
+.saudacao boutique {
+    font-family: "Great Vibes", "Arial", sans-serif;
+    font-size: 2em;
+    color: #000;
+}
+
+.saudacao em {
+    color: #9f6e67;
+    font-size: 4em;
+}
+
+.botao-index {
+    font-size: 1.25em;
+    background-color: #9f6e67;
+    color: #FFF;
+    padding: .5em;
+    border: .1em solid black;
+    width: 40ch;
+    margin: 2em auto;
+    display: block;
+    text-align: center;
+}
+
+.secao-inicio {
+    padding: 2em;
+}
+
+.secao-inicio h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+
+.produtos {
+    background-color: #faf5f1;
+    border-top: .5em solid #000;
+    border-bottom: .5em solid #000;
+}
+
+.produtos h2 {
+    color: #9f6e67;
+}
+
+.produtos ul {
+    overflow: hidden;
+    border: .5em solid black;
+}
+
+.produtos li {
+    float: left;
+    width: 33.333%;
+    display: inline-block;
+}
+.produtos li img {
+    display: block;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+
+.pedido li {
+    display: block;
+}
+
+.pedido img {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    float: left;
+}
+
+.pedido .whatsapp-small {
+    background-image: url(../img/whatsapp_small.png);
+    height: 20px;
+    width: 20px;
+    float: right;
+}
+
+.pedido p{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2em;
+}
+
+footer h2 {
+    font-size: 3em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
+
+.icones-redes-sociais {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
